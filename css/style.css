@@ -16,7 +16,9 @@
  @import url(jquery-ui.css);
  @import url(nice-select.css);
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
- * {
+/* color used before was #12dc12 */
+
+* {
      box-sizing: border-box !important;
 }
  body {
@@ -238,8 +240,8 @@
      text-decoration: underline !important;
 }
  .main_bt:hover, .main_bt:focus {
-     background: #18bb18;
-     border: solid #18bb18 5px;
+     background: #00adb5;
+     border: solid #00adb5 5px;
      color: #fff;
 }
  .button_section {
@@ -345,7 +347,7 @@
 }
 /*--------------------------------------------------------------------- header area ---------------------------------------------------------------------*/
  .header {
-     background: #181918;
+     background: #303841;
      padding: 10px 0px;}
  .logo {
      float: left;
@@ -355,10 +357,10 @@
      margin-left: 0;
 }
  .menu-area-main li:hover a, .menu-area-main li:focus a {
-     color: #18bb18;
+     color: #00adb5;
 }
  .menu-area-main li.active a {
-     color: #18bb18 ;
+     color: #00adb5 ;
 }
  .right_cart_section {
      float: right;
@@ -1355,11 +1357,11 @@
  .banner-main .carousel-caption h1 {
     font-size: 76px;
      line-height: 80px;
-     color: #18bb18;
+     color: #ff5722;
      font-weight: bold;
 }
  .cur {
-    color: #ad2100;
+    color: #ff5722;
      font-weight: bold !important;
 }
  .banner-main .carousel-caption span {
@@ -1374,7 +1376,7 @@
      color: #2f2f2f;
 }
  .carousel-indicators .active {
-    background-color: #18bb18;
+    background-color: #00adb5;
 }
  .carousel-indicators li {
     background-color: #000;
@@ -1400,7 +1402,7 @@
 }
  .aboutheading {
     text-align: center;
-     border:#12dc12 solid 1px;
+     border-bottom: #ff5722 solid 3px;
 }
  .aboutheading h2 {
      padding: 5px 0px;
@@ -1433,12 +1435,13 @@
 }
  .about .aboutimg a:hover {
     color: #fff;
-     background-color: #18bb18;
+     background-color: #00adb5;
 }
  .Coach {
      background-color: #fff;
      padding: 90px 0px;
 }
+
  .Coach .titlepage {
      text-align: center;
      padding-bottom: 65px;
@@ -1446,9 +1449,9 @@
  .Coach .titlepage h2 {
      line-height: 72px;
      font-size: 40px;
-     color: #18bb18;
+     color: #ff5722;
 }
- .need {
+ .us {
     color: #120f0f;
      font-weight: normal;
 }
@@ -1469,6 +1472,7 @@
 }
  .Coach .tow-box i img {
      float: left;
+     height: 90px;
 }
  .Coach .tow-box p {
     font-size: 27px;
@@ -1494,10 +1498,10 @@
      text-align: center;
 }
  .Coach .read-more a:hover {
-    background-color: #18bb18;
+    background-color: #00adb5;
 }
  .green_bg {
-    background-color: #18bb18;
+    background-color: #00adb5;
 }
  .guaranteed figure {
     margin: 0;
@@ -1574,7 +1578,7 @@
      padding: 19px 0px 70px 0px;
 }
  .cur {
-     color: #7e1212;
+     color: #2f2f2f;
 }
  .Contact {
      background-color: #fff;
@@ -1612,21 +1616,24 @@
      padding-top: 73px;
 }
  .send-btn {
+     position: relative;
+     left: -1%;
+     bottom: 14px;
      font-size: 26px;
      border: #000000 solid 2px;
-     padding: 16px 70px;
+     padding: 2px 19px;
      background-color: #000000;
      color: #fff;
      border-radius: 40px;
      margin: 0 auto;
 }
  .send-btn:hover {
-     background-color: #18bb18;
-     border: #18bb18 solid 2px;
+     background-color: #00adb5;
+     border: #00adb5 solid 2px;
      color: #fff;
 }
  .footer {
-     background-color: #032703;
+     background-color: #303841;
      padding-bottom: 36px;
 }
  .footer .JJcoach {
@@ -1647,7 +1654,7 @@
      font-weight: bold;
 }
  .coa {
-    color: #12dc12;
+    color: #2f2f2f; //change
 }
  .footer .Contact i a {
      border: #fff solid 1px;
@@ -1717,14 +1724,14 @@
     color: #120f0f;
 }
  .copyright a:hover {
-    color: #18bb18;
+    color: #00adb5;
 }
 /*--------------------------------------------------------------------- inner_page css ---------------------------------------------------------------------*/
  .about_page .about {
     margin-bottom: 90px;
 }
  .about-bg {
-     background-color: #18bb18;
+     background-color: #00adb5;
      margin-bottom: 90px;
 }
  .about-bg .abouttitle h2 {
@@ -1743,7 +1750,7 @@
     margin-bottom: 90px;
 }
  .meet_page .meet-me {
-     background-color: #18bb18;
+     background-color: #00adb5;
      margin-bottom: 90px;
 }
  .pdntp {
@@ -1759,7 +1766,7 @@
      text-align: center;
 }
  .Coach-bg {
-     background-color: #18bb18;
+     background-color: #00adb5;
 }
  .Coach-bg .abouttitle h2 {
      color: #fff;
@@ -1771,7 +1778,7 @@
      text-align: center;
 }
  .Contact-bg {
-     background-color: #18bb18;
+     background-color: #00adb5;
 }
  .Contact-bg .abouttitle h2 {
      color: #fff;
@@ -1785,7 +1792,7 @@
 /** slider arrow **/
  
 
-/* css added by ashish singh bisht */
+/* css asb */
 .logo img {
     max-width: 55px;
 }
